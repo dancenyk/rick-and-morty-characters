@@ -77,5 +77,15 @@ ul {
   list-style: none;
 }
 
+#character-list{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
+
+ul div{
+  border: 2px solid #50505098;
+}
 

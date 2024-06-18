@@ -75,7 +75,7 @@ fetch (urlBase+page)
     })
 
     prevBtn.addEventListener ("click", ()=>{
-        if (page>1 && page<=42) {
+        if (page>1) {
               page--
     fetch (urlBase+page)
     .then((response)=>{
@@ -109,6 +109,7 @@ fetch (urlBase+page)
         }
         
     }); 
+
 
 
 
